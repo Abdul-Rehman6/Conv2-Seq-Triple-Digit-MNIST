@@ -13,7 +13,6 @@ Instead of simple digit classification, the model processes sets of three MNIST 
 - **best_model.pth** — Trained model weights saved in PyTorch format.
 - **requirements.txt** — Python packages required to run the project.
 - **README.md** — This file describing the project.
-- **data/** — *(Optional)* folder for storing MNIST images or sample inputs.
 
 ---
 
@@ -42,7 +41,7 @@ Overall structure:
 
 - Two-layer LSTM that takes the sequence of three feature vectors from the encoder.
 - Each LSTM output is passed through a linear layer to produce a classification over the 10 digit classes (0–9).
-- The decoder produces three predictions per triplet — one for each image in the sequence.
+- The decoder produces three predictions per triplet, one for each image in the sequence.
 
 ---
 
