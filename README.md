@@ -1,20 +1,20 @@
-# Encoder-Decoder LSTM Network — Sequence-to-Sequence Model
+# Encoder‑Decoder CNN‑LSTM Network for MNIST Triplet Classification
 
-This project implements an **Encoder-Decoder architecture** using **LSTM layers** in TensorFlow/Keras. It is designed for sequence-to-sequence learning tasks like **text generation**, **language translation**, or **summarization**.
-
-> This project was created as part of a technical task for an interview.
+This repository contains an **Encoder‑Decoder** model implemented in **PyTorch**, combining a **CNN encoder** and an **LSTM decoder**, trained on a **triplet version of the MNIST dataset**.  
+Instead of simple digit classification, the model processes sets of three MNIST images at once (triplets) to learn richer sequence relationships. This was developed as part of a technical interview task.
 
 ---
 
-## 📁 Files in This Repository
+## 📁 Repository Structure
 
-| File/Folder                  | Description |
-|-----------------------------|-------------|
-| `Encoder_Decoder_Network.ipynb` | The main Jupyter notebook containing model building, training, and evaluation code |
-| `model.h5`                  | Trained model file including weights and architecture |
-| `requirements.txt`         | List of required Python packages to run this project |
-| `README.md`                | This file – explains everything about the project |
-| `data/` *(optional)*       | Directory for input sample data, if any |
+```text
+encoder-decoder-triplet-mnist/
+│
+├── Encoder_Decoder_Network.ipynb   ← Jupyter Notebook: data loading, model definition, training loop, evaluation, plots
+├── best_model.pth                  ← Saved best‑validation‑loss model weights (PyTorch state_dict)
+├── requirements.txt                ← Python dependencies
+├── .gitignore                      ← Untracked files (cache, checkpoints, env, etc.)
+├── README.md                       ← This file
 
 ---
 
