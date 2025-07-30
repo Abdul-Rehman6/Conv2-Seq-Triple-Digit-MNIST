@@ -9,10 +9,10 @@ Instead of simple digit classification, the model processes sets of three MNIST 
 
 ## 📁 Repository Structure
 
-- **Encoder_Decoder_Network.ipynb** — Main notebook with data loading, model creation, training, and evaluation.
-- **best_model.pth** — Trained model weights saved in PyTorch format.
-- **requirements.txt** — Python packages required to run the project.
-- **README.md** — This file describing the project.
+- **Encoder_Decoder_Network.ipynb** —> Main notebook with data loading, model creation, training, and evaluation.
+- **best_model.pth** —> Trained model weights saved in PyTorch format.
+- **requirements.txt** —> Python packages required to run the project.
+- **README.md** —> This file describing the project.
 
 ---
 
